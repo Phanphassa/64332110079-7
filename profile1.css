@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666; 
+}
+
+.menubar .logo {
+    float: left;
+}
+
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 50px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+.content {
+    margin-left: 270px; 
+    padding: 20px; 
+}
+
+body {
+    background: url(https://www.educatepark.com/wp-content/uploads/2018/10/muay-thai-s.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+
+.main-content 
+    {
+        width: 1000px;
+        height: auto;
+        margin: 40px auto 20px; 
+        color: #040404;
+        position: relative;
+        max-width: 800px;
+        overflow: auto; 
+        padding: 20px 40px; 
+        border-radius: 5px;
+        background-color: rgba(247, 247, 247, 0.8);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+.main-content p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #333; 
+}
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display:    block;
+    font-weight: bold;
+}
+
+.profile {
+    background-color: rgba(255, 246, 246, 0.9);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.profile h2 {
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    color: #666;
+    font-size: 16px; 
+    margin-bottom: 20px;
+}
+
+
+#logoutBtn {
+    background-color: #e05252;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: #c13f4e;
+}
+
+.edit-link, .add-post-link {
+    text-decoration: none;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.edit-link:hover, .add-post-link:hover {
+    background-color: gray;
+}
+footer {
+    background: #333;
+    margin-top: 30%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer p {
+    margin:400;
+}

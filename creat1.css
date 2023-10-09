@@ -1,0 +1,140 @@
+/* style.css */
+body{
+margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666; 
+}
+
+.menubar .logo {
+    float: left;
+}
+
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 50px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+body {
+    background: url(https://www.educatepark.com/wp-content/uploads/2018/10/muay-thai-s.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+        
+}
+
+
+main {
+    width: 360px;
+    height: 280px;
+    background: linear-gradient(to top, rgba(240, 231, 231, 0.8)50%,rgba(248, 243, 243, 0.8)50%);
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 340px;
+    height: 35px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px 120px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+footer {
+    background: #333;
+    margin-top: 50%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer p {
+    margin:400;
+}
